@@ -6,7 +6,9 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import SecondsCounter from "./component/SecondsCounter.jsx"
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(
+    <SimpleCounter NumOne={firstBox} NumTwo={secondBox} NumThree={thirdBox} NumFour={fourthBox} NumFive={fifthBox} />, document.querySelector("#app")
+    );

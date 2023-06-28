@@ -10,3 +10,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.counterBg{
+    text-align: center;
+    margin:20px;
+}
+.counterBg div{
+    display: inline-block;
+    font-size:200px;
+    padding:10px;
+    background-color: black;
+    color:white;
+}
+
